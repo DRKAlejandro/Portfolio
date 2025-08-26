@@ -3,7 +3,7 @@
 import Header from './components/Header';
 import "./styles/theme.css";
 
-// import Home from './pages/Home';
+ import Home from './pages/Home';
 // import About from './pages/About';
 // import Projects from './pages/Projects';
 // import Skills from './pages/Skills';
@@ -13,8 +13,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main>
-       
+      <main className="pt-16">
+       <Home />
       </main>
     </div>
   );
